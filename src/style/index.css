@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  font-family: "Roboto", monospace;
+  color: white;
+}
+
+body {
+  background-color: #051014;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  float: left;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.item-1, .item-2 {
+  flex: 1;
+}
+
+/*# sourceMappingURL=index.css.map */
