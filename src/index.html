@@ -7,33 +7,53 @@
         <title>Richard Nam Portfolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./style/index.css">
+        <link rel="stylesheet" href="./style/style.css">
     </head>
 
 
-    <!--Nav Bar -->
-    <nav class="topnav">
-        <h1>rchdnm</h1>
-                <ul class = "nav-list">
-                    <li><a href="#!"></a>About</li>
-                    <li><a href="#!"></a>Blog</li>
-                    <li><a href="#!"></a>Contact</li>
-                    <li><a href="#!"></a>Home</li>
-                </ul>
+    <!-- Navigation bar-->
+ <!-- Navigation bar -->
+ <header class="header">
+    <!-- Logo -->
+    <a href="#" class="logo">rn</a>
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <!-- Menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a> </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
     </nav>
-
+</header>
     <!--Main Content-->
     <body>
-        <div class="container">
+        <div class="page-wrapper">
 
-            <div class="item item-1"><h3>Hi, my name is</h2></div>
-            <div class="item item-2"><h1>Richard Nam</h1></div>
-            <div class="item item-3"><p class = 'paragraph'>I'm a (soon to be) full-stack developer currently bootcamping at <a href="https://www.coderacademy.edu.au/">Coder Academy</a></p></div>
-            <div class="item item-4"><img src="./images/hello.svg"></div>
+            <!--Side 1-->
+            <div class="side1">
+                <div class="wrapper">
+                    <h3>Hi, my name is</h3>
+                    <h1>Richard Nam</h1>
+                    <img src="./images/hello.svg">
+                </div>
+            </div>
+
+            <!--Side 2 -->
+            <div class="side2">
+                <div class="wrapper">
+                    <h1>Portfolio</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
     </body>
 
     <footer>
-        <div class="linkedin-icon">
+        <div class="footer">
             <img src="./images/linkedin.svg" alt="linked in icon">
             <img src="./images/github.svg" alt="github icon">
         </div>
