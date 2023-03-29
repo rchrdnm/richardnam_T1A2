@@ -1,21 +1,6 @@
-//color variables
+@use "./components/palette";
+@use "./components/typography";
 
-$primary-color: black;
-$font-color: white;
-$background-color: #051014;
-$palette-1 : #A599B5;
-
-// Font
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
- * {
-  font-family: "Roboto", monospace;
-  color: $font-color;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  background-color: $background-color;
-}
 
 
 .parent{
@@ -46,7 +31,7 @@ $palette-1 : #A599B5;
 
 
 body{
-  background-color: $background-color;
+  background-color: palette.$background-color;
   font-family: "Roboto", sans-serif;
 }
 a{
@@ -57,7 +42,7 @@ ul{
 }
 
 .header{
-  background-color: $background-color;
+  background-color: palette.$background-color;
   // box-shadow: 1px 1px 5px 0px gray;
   position: sticky;
   top: 0;
@@ -68,7 +53,7 @@ ul{
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: $background-color;
+  background-color: palette.$background-color;
   overflow: hidden;
 
 }
@@ -94,7 +79,7 @@ ul{
 
 .hamb {
   cursor: pointer;
-  float: left;
+  float: right;
   padding: 40px 20px;
 }
 
@@ -152,7 +137,7 @@ ul{
       top: 0;
       position: relative;
       float: right;
-      width: -moz-fit-content;
+      width: fit-content;
       background-color: transparent;
   }
   .menu li{
