@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-%use-roboto {
+body{
 	font-family: "Roboto", sans-serif;
+    background-color: palette.$background-color;
 }
 
 *{ 
-    color: pink;
+    color: white;
 }
